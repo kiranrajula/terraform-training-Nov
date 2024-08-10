@@ -1,0 +1,4 @@
+FROM postgres:latest
+ENV POSTGRES_USER=kong
+ENV POSTGRES_DB=kong
+EXPOSE 5432
